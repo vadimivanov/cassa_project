@@ -1,0 +1,23 @@
+[
+    {
+        "name" : "espresso",
+        "res" : 0,
+        "price" : 7,
+        "sum" : 0,
+        "id" : 0
+    },
+    {
+        "name" : "latte",
+        "res" : 0,
+        "price" : 11,
+        "sum" : 0,
+        "id" : 1
+    },
+    {
+        "name" : "americano",
+        "res" : 0,
+        "price" : 10,
+        "sum" : 0,
+        "id" : 2
+    }
+]

@@ -2,15 +2,78 @@ html, body{
     margin: 0;
     padding: 0;
     height: 100%;
-    font: Arial, sans-serif;
+}
+body{
+    background-color: #e7eaf2;
+    color: #343F4E;
+    font-family: 'HelveticaNeueMedium', Arial, Helvetica, sans-serif;
 }
 #header{
     height: 30px;
     background: #eeeeee;
 }
 #content{
-    top: 30px;
+    /*top: 30px;*/
     height: 100%;
     width: 100%;
     position: absolute;
+}
+.page{
+    padding: 5px;
+
+}
+.main-page{
+    background: url("image/cofee-cup11.jpg");
+    width: 100%;
+
+}
+.wrap-col{
+    min-width: 480px;
+}
+.wrap-col div{
+    float: left;
+}
+.left-col{
+    /*float: left;*/
+    width: 130px;
+}
+.right-col{
+    margin-left: 25px ;
+    width: 30px;
+}
+.price-col{
+    /*margin-left: 135px;*/
+    width: 30px
+}
+.summa-col{
+    margin-left: 25px ;
+    width: 50px;
+}
+
+.login-block{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+.login-block input{
+    width: 200px;
+    margin-top: 10px;
+}
+.checkLogin{
+    border: none;
+    color: #fff;
+    background: #343F4E;
+    height: 50px;
+}
+.h-text{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+.list span{
+    color: #fff;
+    background: #343F4E;
+    display: block;
+    padding: 5px;
+    text-align: center;
 }

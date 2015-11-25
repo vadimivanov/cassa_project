@@ -4,8 +4,7 @@ RAD.view("view.start_page", RAD.Blanks.View.extend({
 
         {
             container_id: '#content',
-            content: 'view.main_page',
-            extras: {display: 'recent'}
+            content: 'view.login_page'
         }
     ]
 

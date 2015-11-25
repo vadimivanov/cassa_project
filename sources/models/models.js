@@ -1,7 +1,12 @@
-RAD.model('Item', Backbone.Model.extend(), false);
+RAD.model('Item', Backbone.Model.extend({
+
+}), false);
 
 RAD.model('MenuList', Backbone.Collection.extend({
-    model: RAD.models.Item
+    model: RAD.models.Item,
+    initialize:function(){
+
+    }
 
 }), true);
 
